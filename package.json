@@ -1,0 +1,15 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "In this academy you will meet experinced dance teacher and boost your dance practice with the help of this website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandan Singh Bisht",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

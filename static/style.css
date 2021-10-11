@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgb(230, 76, 76);
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;  
+}
+#introSection{
+    font-family: 'Oxygen', sans-serif;
+    background: center / cover no-repeat url(/static/bg.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 300px;
+}
+.intro{
+    font-size: 22px;
+    padding: 5px;
+}
+#missionSection h2{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+}
+#missionSection{
+    height: 300px;
+    width: 67%;
+    margin: auto;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 205px;
+    margin: 23px 15px;
+    background-color: rgb(236, 208, 208);
+}
+#sponsersSection h2{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+}
+#sponsersSection{
+    height: 300px;
+    background-color: rgb(236, 162, 162);
+}
+#footer{
+    height: 100px;
+    background-color: yellow;
+}
